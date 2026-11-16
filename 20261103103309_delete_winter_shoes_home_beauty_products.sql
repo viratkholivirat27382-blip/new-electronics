@@ -1,0 +1,1 @@
+delete from products where category in ('winter', 'shoes-sneakers', 'home-living', 'beauty-personal-care');

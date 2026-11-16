@@ -1,0 +1,2 @@
+update products set subcategory = '' where category in ('winter', 'clothing', 'shoes-sneakers') and subcategory <> '';
+delete from subcategories s using categories c where c.id = s.category_id and c.slug in ('winter', 'clothing', 'shoes-sneakers');
